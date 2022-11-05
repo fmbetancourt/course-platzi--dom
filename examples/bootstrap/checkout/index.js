@@ -1,5 +1,5 @@
-//* * Leer nodos **//
-
+//* *********** Leer nodos *********** *//
+console.log('*********** Leer nodos ***********');
 /**
  * Nombre: getElementById
  * Descripción: Devuelve una referencia al elemento por su ID
@@ -36,3 +36,28 @@ console.log(document.querySelector('div[class="form-check"]'));
  */
 console.log(document.querySelectorAll('.form-control'));
 console.log(document.querySelectorAll('div[class="form-check"]'));
+
+//* *********** NodeLists vs Array *********** *//
+console.log('*********** NodeLists vs Array ***********');
+
+const nodeList = document.querySelectorAll('div');
+console.log(nodeList);
+
+/**
+ * La principal diferencia es que NodeList carece de operaciones
+ * que los Arrays si tienen, por ejemplo:
+ *    Operaciones en común:
+ *      - length
+ *      - forEach
+ *    Operaciones propias de Array:
+ *      - map
+ *      - some
+ *      - filter
+ *      - reduce
+ */
+
+/**
+ * Para pasar un NodeList a Array, se usa la nomenclatura de ES6
+ */
+const nodeListAsArray = [...nodeList];
+console.log(nodeListAsArray);
