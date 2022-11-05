@@ -1,0 +1,35 @@
+{
+  "name": "course-platzi--dom",
+  "version": "1.0.0",
+  "description": "Curso de Manipulación del DOM (https://platzi.com/cursos/dom/)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmbetancourt/course-platzi--dom.git"
+  },
+  "keywords": [
+    "javascript",
+    "dom"
+  ],
+  "author": "Freddy J Moreno B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmbetancourt/course-platzi--dom/issues"
+  },
+  "homepage": "https://github.com/fmbetancourt/course-platzi--dom#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "2.7.1"
+  }
+}
